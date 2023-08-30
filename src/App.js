@@ -1,4 +1,6 @@
-import "./App.css";
+import './bootstrap.min.css'
+import "./App_f.css";
+import './responsive.css';
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";
@@ -10,17 +12,23 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 
+// IMPORT COMPONENTS
+import Lsb from './components/Lsb'
+import MainWrapper from './components/MainWrapper'
+
 function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Routes>
+      {/* <Header /> */}
+      {/* <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
-      </Routes>
-      <Footer />
+      </Routes> */}
+      <Lsb/>
+      <MainWrapper/>
+      {/* <Footer /> */}
     </div>
   );
 }
