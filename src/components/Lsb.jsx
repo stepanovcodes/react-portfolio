@@ -15,12 +15,15 @@ export default function Lsb() {
 
     // set the about state to the data
     setAbout(data);
+    // console.log(data)
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
   useEffect(() => {
     getAboutData();
   }, []);
+
+  // console.log(about)
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (

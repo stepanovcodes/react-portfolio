@@ -1,5 +1,5 @@
 import './bootstrap.min.css'
-import "./App_f.css";
+import "./App.css";
 import './responsive.css';
 
 // IMPORT COMPONENTS
