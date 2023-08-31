@@ -33,10 +33,10 @@ export default function Portfolio() {
     getProjectsData();
   }, []);
 
-    console.log(projects[0].image)
+  // console.log(projects[0].image)
   //   {projects[0].name}
 
-  return (
+  const loaded = () => (
     <section
       className="portfolio-area page-section scroll-to-page"
       id="portfolio"
@@ -92,9 +92,7 @@ export default function Portfolio() {
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[1].live}>
-                  {projects[1].name}
-                  </a>
+                  <a href={projects[1].live}>{projects[1].name}</a>
                 </h2>
               </div>
             </div>
@@ -103,4 +101,6 @@ export default function Portfolio() {
       </div>
     </section>
   );
+   // if data arrives return the result of loaded, if not, an h1 that says loading
+   return projects ? loaded() : <h1>Loading...</h1>;
 }
