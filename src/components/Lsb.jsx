@@ -15,7 +15,6 @@ export default function Lsb() {
 
     // set the about state to the data
     setAbout(data);
-    // console.log(data)
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
@@ -23,16 +22,13 @@ export default function Lsb() {
     getAboutData();
   }, []);
 
-  // console.log(about)
-
-  // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <div className="left-sidebar">
-      {/* bootstrap: d-flex align-items-center justify-content-between */}
       <div className="sidebar-header d-flex align-items-center justify-content-between">
-        <img src={about.logo} alt="Logo" />
+        <img src={about.logo} width="128" heaight="36" alt="Logo" />
         <span className="designation">
-          Full Stack Developer & Product Owner
+          Full Stack Developer &
+          Product Owner
         </span>
       </div>
       <img className="me" src={about.headshot} alt="Me" />

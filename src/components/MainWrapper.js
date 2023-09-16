@@ -3,7 +3,6 @@ import React from 'react'
 import Herosec from './Herosec'
 import About from './About'
 // import Resume from './Main-Components/Resume'
-// import Service from './Main-Components/Service'
 // import Skills from './Main-Components/Skills'
 import Portfolio from './Portfolio'
 // import Testimonials from './Main-Components/Testimonials'
@@ -22,7 +21,7 @@ export default function Main() {
                 <Herosec/>
                 <About/>
                 {/* <Resume/>
-                <Service/>
+                
                 <Skills/> */}
                 <Portfolio/>
                 {/*<Testimonials/>
