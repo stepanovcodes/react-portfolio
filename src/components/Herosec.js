@@ -25,20 +25,16 @@ export default function Herosec() {
                 </a>    
                 <div className="facts d-flex">
                     <div className="left scroll-animation" data-aos='fade-right'>
-                        <h1>3+</h1>
+                        <h1>2+</h1>
                         <p>Years of <br/>Experience</p>
                     </div>
                     <div className="left scroll-animation" data-aos='fade-right'>
-                        <h1>4</h1>
+                        <h1>3</h1>
                         <p>products <br/>launched</p>
                     </div>
                     <div className="left scroll-animation" data-aos='fade-left'>
                         <h1>10+</h1>
                         <p>Developers in <br/> product teams</p>
-                    </div>
-                    <div className="right scroll-animation" data-aos='fade-left'>
-                        <h1>3000+</h1>
-                        <p>Jira issues <br/>completed</p>
                     </div>
                 </div>
             </div>
