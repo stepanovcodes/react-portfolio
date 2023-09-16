@@ -1,6 +1,6 @@
-import './bootstrap.min.css'
-import "./App.css";
-import './responsive.css';
+import './css/bootstrap.min.css'
+import "./css/App.css";
+import './css/responsive.css';
 
 // IMPORT COMPONENTS
 import Header from "./components/Header";

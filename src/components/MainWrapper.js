@@ -2,7 +2,7 @@ import React from 'react'
 // import Lsb from './Global-content/Lsb'
 import Herosec from './Herosec'
 import About from './About'
-// import Resume from './Main-Components/Resume'
+import Resume from './Resume'
 // import Skills from './Main-Components/Skills'
 import Portfolio from './Portfolio'
 // import Testimonials from './Main-Components/Testimonials'
@@ -20,9 +20,9 @@ export default function Main() {
 
                 <Herosec/>
                 <About/>
-                {/* <Resume/>
+                 <Resume/>
                 
-                <Skills/> */}
+                {/*<Skills/> */}
                 <Portfolio/>
                 {/*<Testimonials/>
                 <Contact/> */}

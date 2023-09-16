@@ -33,8 +33,6 @@ export default function Portfolio() {
     getProjectsData();
   }, []);
 
-  // console.log(projects[0].image)
-  //   {projects[0].name}
 
   const loaded = () => (
     <section
