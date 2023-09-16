@@ -3,7 +3,7 @@ import React from 'react'
 import Herosec from './Herosec'
 import About from './About'
 import Resume from './Resume'
-// import Skills from './Main-Components/Skills'
+import Skills from './Skills'
 import Portfolio from './Portfolio'
 // import Testimonials from './Main-Components/Testimonials'
 // import Clientlogos from './Main-Components/Clientlogos'
@@ -22,7 +22,7 @@ export default function Main() {
                 <About/>
                  <Resume/>
                 
-                {/*<Skills/> */}
+                <Skills/>
                 <Portfolio/>
                 {/*<Testimonials/>
                 <Contact/> */}
