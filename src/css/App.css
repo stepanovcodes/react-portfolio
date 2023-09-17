@@ -998,7 +998,7 @@ body .body-overlay {
 .skills .skill:hover .skill-inner {
   border-color: var(--primary_color);
 }
-.skills .skill .skill-inner img {
+.skills .skill .skill-inner img, .skills .skill .skill-inner svg {
   display: block;
   margin: auto auto auto auto;
 }
