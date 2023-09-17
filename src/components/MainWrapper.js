@@ -5,7 +5,7 @@ import About from './About'
 import Resume from './Resume'
 import Skills from './Skills'
 import Portfolio from './Portfolio'
-// import Testimonials from './Main-Components/Testimonials'
+import Testimonials from './Testimonials'
 // import Clientlogos from './Main-Components/Clientlogos'
 // import Pricing from './Main-Components/Pricing'
 // import Contact from './Main-Components/Contact'
@@ -24,8 +24,8 @@ export default function Main() {
                 
                 <Skills/>
                 <Portfolio/>
-                {/*<Testimonials/>
-                <Contact/> */}
+                <Testimonials/>
+                {/* <Contact/> */}
                 
             </div>
         </div>

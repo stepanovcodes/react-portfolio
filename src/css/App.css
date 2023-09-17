@@ -1097,7 +1097,7 @@ body .body-overlay {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .testimonial-item .testimonial-item-inner .author h3 {
   font-size: 18px;

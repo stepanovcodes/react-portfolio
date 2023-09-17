@@ -33,7 +33,6 @@ export default function Portfolio() {
     getProjectsData();
   }, []);
 
-
   const loaded = () => (
     <section
       className="portfolio-area page-section scroll-to-page"
@@ -99,6 +98,29 @@ export default function Portfolio() {
       </div>
     </section>
   );
-   // if data arrives return the result of loaded, if not, an h1 that says loading
-   return projects ? loaded() : <h1>Loading...</h1>;
+
+  const loading = () => (
+    <section
+      className="portfolio-area page-section scroll-to-page"
+      id="portfolio"
+    >
+      <div className="custom-container">
+        <div className="portfolio-content content-width">
+          <div className="section-header">
+            <h4 className="subtitle scroll-animation" data-aos="fade-up">
+              <i className="las la-grip-vertical"></i> portfolio
+            </h4>
+            <h1 className="scroll-animation">
+              Featured <span>Projects</span>
+            </h1>
+          </div>
+          <div className="row portfolio-items">
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+
+  // if data arrives return the result of loaded, if not, an h1 that says loading
+  return projects ? loaded() : loading();
 }
