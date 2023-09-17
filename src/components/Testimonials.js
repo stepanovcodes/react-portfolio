@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect} from "react";
 import OwlCaraousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 export default function Testimonials() {
   const carouselRef = useRef(null);
-
+ 
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -53,10 +53,6 @@ export default function Testimonials() {
               <div className="testimonial-item">
                 <div className="testimonial-item-inner">
                   <div className="author d-flex align-items-center">
-                    {/* <img
-                      src="../assets/images/testimonial-1.jpg"
-                      alt="portfolio"
-                    /> */}
                     <img src="https://uploads-ssl.webflow.com/61e9f3cc0f44f22619551a1e/61f1f9acf3082430587973d4_flame-icon.svg" alt="portfolio"/>
                     <div className="right">
                       <h3>Janelle Springer</h3>
