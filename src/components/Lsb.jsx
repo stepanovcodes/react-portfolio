@@ -46,7 +46,7 @@ export default function Lsb() {
           </a>
         </li>
       </ul>
-      <a href="#" className="theme-btn">
+      <a href="#contact" className="theme-btn">
         <i className="las la-envelope"></i> Contact Me!
       </a>
     </div>
