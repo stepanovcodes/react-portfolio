@@ -33,7 +33,7 @@ export default function Testimonials() {
         <div className="testimonial-content content-width">
           <div className="section-header">
             <h4 className="subtitle scroll-animation" data-aos="fade-up">
-              <i className="lar la-comment"></i> testimonial
+              <i className="lar la-comment"></i> testimonials
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
               Trusted by <span>Peers</span>
@@ -66,8 +66,7 @@ export default function Testimonials() {
                     knowledge, in addition to his
                     always-positive and friendly attitude. He is a very
                     conscientious worker who will not leave until the job is
-                    done. Everyone enjoys working with him and I imagine he
-                    would fit in well on any team. I would not hesitate to recommend Alex,
+                    done. I would not hesitate to recommend Alex,
                     please feel free to reach out if you have any additional
                     questions.
                   </p>

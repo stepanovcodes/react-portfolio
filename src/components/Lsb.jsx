@@ -32,8 +32,8 @@ export default function Lsb() {
       </div>
       <img className="me" src={about.headshot} alt="Me" />
       <h2 className="email">{about.email}</h2>
-      <h2 className="address">Base in {about.location}</h2>
-      <p className="copyright">&copy; 2023 Alex. All Rights Reserved</p>
+      <h2 className="address">Based in {about.location}</h2>
+      <p className="copyright">&copy; 2023 Alex Stepanov. All Rights Reserved</p>
       <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
         <li>
           <a href="https://www.linkedin.com/in/aleksandr-stepanov/">
@@ -46,9 +46,9 @@ export default function Lsb() {
           </a>
         </li>
       </ul>
-      {/* <a href="#" className="theme-btn"> */}
+      <a href="#" className="theme-btn">
         <i className="las la-envelope"></i> Contact Me!
-      {/* </a> */}
+      </a>
     </div>
   );
 
@@ -76,9 +76,9 @@ export default function Lsb() {
           </a>
         </li>
       </ul>
-      {/* <a href="#" className="theme-btn"> */}
+      <a href="#" className="theme-btn">
         <i className="las la-envelope"></i> Contact Me!
-      {/* </a> */}
+      </a>
     </div>
   );
 

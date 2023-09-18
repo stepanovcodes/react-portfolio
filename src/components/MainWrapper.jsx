@@ -1,14 +1,12 @@
 import React from 'react'
-// import Lsb from './Global-content/Lsb'
+import Lsb from './Lsb'
 import Herosec from './Herosec'
 import About from './About'
 import Resume from './Resume'
 import Skills from './Skills'
 import Portfolio from './Portfolio'
 import Testimonials from './Testimonials'
-// import Clientlogos from './Main-Components/Clientlogos'
-// import Pricing from './Main-Components/Pricing'
-// import Contact from './Main-Components/Contact'
+import Contact from './Contact'
 
 export default function Main() {
   return (
@@ -16,16 +14,14 @@ export default function Main() {
         <div id="smooth-wrapper">
             <div id="smooth-content">
 
-                {/* <Lsb/> this component will used by mobile devices */}
-
+                <Lsb/>
                 <Herosec/>
                 <About/>
-                 <Resume/>
-                
+                <Resume/>   
                 <Skills/>
                 <Portfolio/>
                 <Testimonials/>
-                {/* <Contact/> */}
+                <Contact/>
                 
             </div>
         </div>

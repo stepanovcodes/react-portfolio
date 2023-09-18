@@ -1096,7 +1096,7 @@ body .body-overlay {
 .testimonial-item .testimonial-item-inner .author img {
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+  border-radius: 45%;
   object-fit: contain;
 }
 .testimonial-item .testimonial-item-inner .author h3 {
@@ -1130,6 +1130,7 @@ body .body-overlay {
 
 .testimonial-area .testimonial-slider-wrap .testimonial-footer-nav {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .testimonial-area .testimonial-slider-wrap .testimonial-footer-nav .testimonial-nav {
   gap: 15px;
