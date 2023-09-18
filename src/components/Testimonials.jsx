@@ -66,9 +66,7 @@ export default function Testimonials() {
                     knowledge, in addition to his
                     always-positive and friendly attitude. He is a very
                     conscientious worker who will not leave until the job is
-                    done. I would not hesitate to recommend Alex,
-                    please feel free to reach out if you have any additional
-                    questions.
+                    done.
                   </p>
                 </div>
               </div>
