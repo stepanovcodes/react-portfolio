@@ -1,6 +1,7 @@
 import "./css/bootstrap.min.css";
 import "./css/App.css";
 import "./css/responsive.css";
+import Pageloader from './components/Pageloader'
 import Lsb from "./components/Lsb";
 import Rsidemenu from './components/Rsidemenu';
 import Scrollnav from './components/Scrollnav';

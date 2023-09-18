@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Lightbox from "lightbox2";
 import "lightbox2/dist/css/lightbox.min.css";
+import Pageloader from './Pageloader'
 // import 'lightbox2/dist/js/lightbox.js';
 
 export default function Portfolio() {
@@ -100,25 +101,7 @@ export default function Portfolio() {
   );
 
   const loading = () => (
-    <section
-      className="portfolio-area page-section scroll-to-page"
-      id="portfolio"
-    >
-      <div className="custom-container">
-        <div className="portfolio-content content-width">
-          <div className="section-header">
-            <h4 className="subtitle scroll-animation" data-aos="fade-up">
-              <i className="las la-grip-vertical"></i> portfolio
-            </h4>
-            <h1 className="scroll-animation">
-              Featured <span>Projects</span>
-            </h1>
-          </div>
-          <div className="row portfolio-items">
-          </div>
-        </div>
-      </div>
-    </section>
+    <Pageloader/>
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading
