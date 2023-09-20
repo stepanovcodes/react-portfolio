@@ -117,12 +117,12 @@ export default function Testimonials() {
             </OwlCaraousel>
             <div className="testimonial-footer-nav">
               <div className="testimonial-nav d-flex align-items-center">
-                <button className="prev" onClick={handlePrevClick}>
+                {/* <button className="prev" onClick={handlePrevClick}>
                   <i className="las la-angle-left"></i>
                 </button>
                 <button className="next" onClick={handleNextClick}>
                   <i className="las la-angle-right"></i>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
