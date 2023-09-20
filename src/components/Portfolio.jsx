@@ -94,6 +94,29 @@ export default function Portfolio() {
                 </h2>
               </div>
             </div>
+
+            <div className="col-md-12 scroll-animation" data-aos="fade-up">
+              <div className="portfolio-item portfolio-half">
+                <div className="portfolio-item-inner">
+                  <a href={projects[2].image} data-lightbox="example-1">
+                    <img src={projects[2].image} alt="portfolio" />
+                  </a>
+
+                  <ul className="portfolio-categories">
+                    <li>
+                      <a href={projects[2].git}>GitHub</a>
+                    </li>
+                    <li>
+                      <a href={projects[2].live}>Live</a>
+                    </li>
+                  </ul>
+                </div>
+                <h2>
+                  <a href={projects[2].live}>{projects[2].name}</a>
+                </h2>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

@@ -26,10 +26,7 @@ export default function About() {
             developers, QA specialists, designers, and business analysts, to
             create innovative digital solutions for the Oil & Gas industry. I
             couldn't help but work diligently to hone my abilities and expand my
-            proficiency into the realm of full stack development. My demeanor
-            exudes quiet confidence, I possess a natural curiosity, and I am
-            dedicated to refining my skills by tackling technical challenges one
-            at a time
+            proficiency into the realm of full stack development.
           </p>
         </div>
       </div>

@@ -60,11 +60,11 @@ export default function Rsidemenu() {
                   <i className="lar la-comment"></i> <span>Testimonial</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="scroll-to" href="#contact" onClick={removeActive}>
                   <i className="las la-envelope"></i> <span>Contact</span>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

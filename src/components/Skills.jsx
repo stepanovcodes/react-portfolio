@@ -52,6 +52,14 @@ export default function Skills() {
                 <p className="name">CSS3</p>
               </div>
             </div>
+            <div className="col-md-3 scroll-animation" data-aos="fade-right">
+              <div className="skill">
+                <div className="skill-inner">
+                  <img src="../assets/images/sql.png" width="64px" alt="SQL" />
+                </div>
+                <p className="name">SQL</p>
+              </div>
+            </div>
           </div>
           <div className="section-header">
             <h1 className="scroll-animation" data-aos="fade-up">

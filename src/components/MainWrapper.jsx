@@ -6,7 +6,7 @@ import Resume from './Resume'
 import Skills from './Skills'
 import Portfolio from './Portfolio'
 import Testimonials from './Testimonials'
-import Contact from './Contact'
+// import Contact from './Contact'
 
 export default function Main() {
   return (
@@ -21,7 +21,7 @@ export default function Main() {
                 <Skills/>
                 <Portfolio/>
                 <Testimonials/>
-                <Contact/>
+                {/* <Contact/> */}
                 
             </div>
         </div>

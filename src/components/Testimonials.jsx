@@ -49,6 +49,7 @@ export default function Testimonials() {
               items="1"
               dots={false}
               ref={carouselRef}
+              loop= "true"
             >
               <div className="testimonial-item">
                 <div className="testimonial-item-inner">
@@ -71,7 +72,7 @@ export default function Testimonials() {
                 </div>
               </div>
 
-              <div className="testimonial-item">
+              {/* <div className="testimonial-item">
                 <div className="testimonial-item-inner">
                   <div className="author d-flex align-items-center">
                     <img
@@ -112,16 +113,13 @@ export default function Testimonials() {
                     master of code and he also very creative.”
                   </p>
                 </div>
-              </div>
+              </div> */}
             </OwlCaraousel>
             <div className="testimonial-footer-nav">
               <div className="testimonial-nav d-flex align-items-center">
                 <button className="prev" onClick={handlePrevClick}>
                   <i className="las la-angle-left"></i>
                 </button>
-                <div id="testimonial-slide-count">
-                  <span className="left">1</span> /3
-                </div>
                 <button className="next" onClick={handleNextClick}>
                   <i className="las la-angle-right"></i>
                 </button>

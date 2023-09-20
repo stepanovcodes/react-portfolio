@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Pageloader from './Pageloader'
+import CV from '../assets/stepanov-cv.pdf'
 
 export default function Lsb() {
   // create state to hold about data
@@ -47,8 +48,8 @@ export default function Lsb() {
           </a>
         </li>
       </ul>
-      <a href="#contact" className="theme-btn">
-        <i className="las la-envelope"></i> Contact Me!
+      <a href={CV} className="theme-btn">
+        <i className="las la-file"></i> Download CV
       </a>
     </div>
   );

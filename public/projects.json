@@ -10,5 +10,11 @@
     "live": "https://alella-theme-generator-49b5c35126f2.herokuapp.com/",
     "git": "https://github.com/stepanovcodes/theme-generator",
     "image": "https://i.imgur.com/32ezf6v.png"
+  },
+  {
+    "name": "Route Finder",
+    "live": "https://main--mapbox-route-finder.netlify.app/",
+    "git": "https://github.com/stepanovcodes/route-finder",
+    "image": "https://i.imgur.com/k6P1ZXi.png"
   }
 ]
