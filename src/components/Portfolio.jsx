@@ -60,15 +60,15 @@ export default function Portfolio() {
 
                   <ul className="portfolio-categories">
                     <li>
-                      <a href={projects[0].git}>GitHub</a>
+                      <a href={projects[0].git} target="_blank" rel="noreferrer">GitHub</a>
                     </li>
                     <li>
-                      <a href={projects[0].live}>Live</a>
+                      <a href={projects[0].live} target="_blank" rel="noreferrer">Live</a>
                     </li>
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[0].live}>{projects[0].name}</a>
+                  <a href={projects[0].live} target="_blank" rel="noreferrer">{projects[0].name}</a>
                 </h2>
               </div>
             </div>
@@ -82,15 +82,15 @@ export default function Portfolio() {
 
                   <ul className="portfolio-categories">
                     <li>
-                      <a href={projects[1].git}>GitHub</a>
+                      <a href={projects[1].git} target="_blank" rel="noreferrer">GitHub</a>
                     </li>
                     <li>
-                      <a href={projects[1].live}>Live</a>
+                      <a href={projects[1].live} target="_blank" rel="noreferrer">Live</a>
                     </li>
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[1].live}>{projects[1].name}</a>
+                  <a href={projects[1].live} target="_blank" rel="noreferrer">{projects[1].name}</a>
                 </h2>
               </div>
             </div>
@@ -104,15 +104,15 @@ export default function Portfolio() {
 
                   <ul className="portfolio-categories">
                     <li>
-                      <a href={projects[2].git}>GitHub</a>
+                      <a href={projects[2].git} target="_blank" rel="noreferrer">GitHub</a>
                     </li>
                     <li>
-                      <a href={projects[2].live}>Live</a>
+                      <a href={projects[2].live} target="_blank" rel="noreferrer">Live</a>
                     </li>
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[2].live}>{projects[2].name}</a>
+                  <a href={projects[2].live} target="_blank" rel="noreferrer">{projects[2].name}</a>
                 </h2>
               </div>
             </div>

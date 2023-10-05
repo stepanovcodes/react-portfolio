@@ -72,12 +72,12 @@ export default function Rsidemenu() {
             <p>Social</p>
             <ul className="social-links d-flex align-items-center">
               <li>
-                <a href="https://www.linkedin.com/in/aleksandr-stepanov/">
+                <a href="https://www.linkedin.com/in/aleksandr-stepanov/" target="_blank" rel="noreferrer">
                   <i className="lab la-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/stepanovcodes/">
+                <a href="https://github.com/stepanovcodes/" target="_blank" rel="noreferrer">
                   <i className="lab la-github"></i>
                 </a>
               </li>

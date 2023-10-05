@@ -35,20 +35,20 @@ export default function Lsb() {
       <img className="me" src={about.headshot} alt="Me" />
       <h2 className="email">{about.email}</h2>
       <h2 className="address">Based in {about.location}</h2>
-      <p className="copyright">&copy; 2023 Alex Stepanov. All Rights Reserved</p>
+      <p className="copyright">&copy; 2023 Alex Stepanov</p>
       <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
         <li>
-          <a href="https://www.linkedin.com/in/aleksandr-stepanov/">
+          <a href="https://www.linkedin.com/in/aleksandr-stepanov/" target="_blank" rel="noreferrer">
             <i className="lab la-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/stepanovcodes/">
+          <a href="https://github.com/stepanovcodes/" target="_blank" rel="noreferrer">
             <i className="lab la-github"></i>
           </a>
         </li>
       </ul>
-      <a href={CV} className="theme-btn">
+      <a href={CV} className="theme-btn" target="_blank" rel="noreferrer">
         <i className="las la-file"></i> Download CV
       </a>
     </div>

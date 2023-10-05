@@ -107,25 +107,12 @@ export default function Skills() {
             <div className="col-md-3 scroll-animation" data-aos="fade-right">
               <div className="skill">
                 <div className="skill-inner">
-                  <img src="../assets/images/jquery.png" alt="jQuery" />
-                </div>
-                <p className="name">jQuery</p>
-              </div>
-            </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-up">
-              <div className="skill">
-                <div className="skill-inner">
-                  <img
-                    src="../assets/images/ts-logo-128.png"
-                    width="64px"
-                    height="64px"
-                    alt="TypeScript"
-                  />
+                  <img src="../assets/images/ts-logo-128.png" width="64px" height="64px" alt="TypeScript" />
                 </div>
                 <p className="name">TypeScript</p>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-down">
+            <div className="col-md-3 scroll-animation" data-aos="fade-up">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -137,7 +124,7 @@ export default function Skills() {
                 <p className="name">Tailwind CSS</p>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-left">
+            <div className="col-md-3 scroll-animation" data-aos="fade-down">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -149,7 +136,7 @@ export default function Skills() {
                 <p className="name">Bootstrap</p>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-right">
+            <div className="col-md-3 scroll-animation" data-aos="fade-left">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -161,7 +148,7 @@ export default function Skills() {
                 <p className="name">Sequelize</p>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-up">
+            <div className="col-md-3 scroll-animation" data-aos="fade-right">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -174,7 +161,7 @@ export default function Skills() {
                 <p className="name">django</p>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-down">
+            <div className="col-md-3 scroll-animation" data-aos="fade-up">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -186,11 +173,10 @@ export default function Skills() {
                 <p className="name">Auth 2.0</p>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-left">
+            <div className="col-md-3 scroll-animation" data-aos="fade-down">
               <div className="skill">
                 <div className="skill-inner">
-                  {/* <img src="../assets/images/fluent.png" height="64px" alt="Fluent 2" /> */}
-                  <svg
+                <svg
                     width="64"
                     height="64"
                     viewBox="0 0 16 32"
@@ -204,6 +190,14 @@ export default function Skills() {
                   </svg>
                 </div>
                 <p className="name">Fluent 2</p>
+              </div>
+            </div>
+            <div className="col-md-3 scroll-animation" data-aos="fade-left">
+              <div className="skill">
+                <div className="skill-inner">
+                  <img src="../assets/images/material.png" height="64px" alt="Material" />
+                </div>
+                <p className="name">Material UI</p>
               </div>
             </div>
           </div>
