@@ -1,9 +1,9 @@
 [
   {
-    "name": "Video Poker",
-    "live": "https://stepanovcodes.github.io/video-poker/",
-    "git": "http://www.github.com/stepanovcodes/video-poker",
-    "image": "https://i.imgur.com/sGAIOVm.png"
+    "name": "Child Hare",
+    "live": "https://child-hare.netlify.app/",
+    "git": "https://github.com/stepanovcodes/child-hare",
+    "image": "https://i.imgur.com/1tZWrUp.png"
   },
   {
     "name": "Theme Generator",
@@ -12,9 +12,9 @@
     "image": "https://i.imgur.com/32ezf6v.png"
   },
   {
-    "name": "Child Hare",
-    "live": "https://child-hare.netlify.app/",
-    "git": "https://github.com/stepanovcodes/child-hare",
-    "image": "https://i.imgur.com/1tZWrUp.png"
+    "name": "Video Poker",
+    "live": "https://stepanovcodes.github.io/video-poker/",
+    "git": "http://www.github.com/stepanovcodes/video-poker",
+    "image": "https://i.imgur.com/sGAIOVm.png"
   }
 ]

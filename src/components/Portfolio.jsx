@@ -68,7 +68,8 @@ export default function Portfolio() {
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[0].live} target="_blank" rel="noreferrer">{projects[0].name}</a>
+                  <a href={projects[0].live} target="_blank" rel="noreferrer">{projects[0].name}:</a>
+                  <span> Next.js, Express, node.js, PostgreSQL, Mapbox GL JS</span>
                 </h2>
               </div>
             </div>
@@ -90,7 +91,8 @@ export default function Portfolio() {
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[1].live} target="_blank" rel="noreferrer">{projects[1].name}</a>
+                  <a href={projects[1].live} target="_blank" rel="noreferrer">{projects[1].name}:</a>
+                  <span> EJS, Express, Node.js, MongoDB, OpenAI</span>
                 </h2>
               </div>
             </div>
@@ -112,7 +114,8 @@ export default function Portfolio() {
                   </ul>
                 </div>
                 <h2>
-                  <a href={projects[2].live} target="_blank" rel="noreferrer">{projects[2].name}</a>
+                  <a href={projects[2].live} target="_blank" rel="noreferrer">{projects[2].name}:</a>
+                  <span> HTML, CSS, JavaScript, Bootstrap</span>
                 </h2>
               </div>
             </div>

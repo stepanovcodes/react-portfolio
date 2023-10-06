@@ -32,8 +32,13 @@ export default function Rsidemenu() {
                 </a>
               </li>
               <li>
-                <a className="scroll-to" href="#resume" onClick={removeActive}>
-                  <i className="las la-briefcase"></i> <span>Resume</span>
+                <a
+                  className="scroll-to"
+                  href="#portfolio"
+                  onClick={removeActive}
+                >
+                  <i className="las la-grip-vertical"></i>{" "}
+                  <span>Portfolios</span>
                 </a>
               </li>
               <li>
@@ -42,13 +47,8 @@ export default function Rsidemenu() {
                 </a>
               </li>
               <li>
-                <a
-                  className="scroll-to"
-                  href="#portfolio"
-                  onClick={removeActive}
-                >
-                  <i className="las la-grip-vertical"></i>{" "}
-                  <span>Portfolios</span>
+                <a className="scroll-to" href="#resume" onClick={removeActive}>
+                  <i className="las la-briefcase"></i> <span>Resume</span>
                 </a>
               </li>
               <li>

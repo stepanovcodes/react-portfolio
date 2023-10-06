@@ -17,9 +17,9 @@ export default function Main() {
                 <Lsb/>
                 <Herosec/>
                 <About/>
-                <Resume/>   
-                <Skills/>
                 <Portfolio/>
+                <Skills/>
+                <Resume/>   
                 <Testimonials/>
                 {/* <Contact/> */}
                 
